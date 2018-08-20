@@ -1,0 +1,51 @@
+---
+title: "OxShef: Partners"
+output:
+  html_document:
+    toc: false
+    toc_float:
+      collapsed: false
+    includes:
+      before_body: [includes/include_header.html, includes/include_header_navpage.html]
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+**OxShef: dataviz** is a partnership between multiple Univerisities designed to develop and share resources for researchers to design, build and host visualisations of research data to drive impact and engagement within a reproducible research workflow. We welcome individuals to contribute to our Open Access materials on GitHub and would be pleased to discuss partnering with other insitutions.
+
+## Current Partners
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<center><img style="height:140px;margin-top:42px" src="images/logo_university-of-oxford_web.png"/></center>
+
+At the University of Oxford the Interactive Data Network (IDN) is the main contributor to the development of content for the **OxShef: dataviz** partnership and provides support for local researchers on the development and publishing of dataviz. [Read more about University of Oxford's contributions to OxShef: dataviz](partners_university-of-oxford.html).
+
+</div>
+
+<div class="col-md-6">
+
+<center><img style="height:140px;margin-top:42px" src="images/logo_university-of-sheffield_web.png"/></center>
+
+At the University of Sheffield there are multiple teams who contribute to the development of content for the **OxShef: dataviz** partnership and provide support for local researchers on the development and publishing of dataviz. [Read more about University of Sheffield's contributions to OxShef: dataviz](partners_university-of-sheffield.html).
+
+</div>
+
+</div>
+
+## Prospective Partners
+
+**OxShef: dataviz** welcomes offers of collaboration and partnership with other universities to further promote data visualisation and the importance of reproducible research. If you would like to get in touch with us then in the first place message us on Twitter <a class="twitter-follow-button" href="https://twitter.com/oxshef_dataviz" data-show-count="false">Follow @oxshef_dataviz</a>.
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+

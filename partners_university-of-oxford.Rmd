@@ -1,0 +1,45 @@
+---
+output:
+  html_document:
+    toc: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+
+<div class='row'>
+
+<div class="col-sm-4 align-self-center">
+
+<center>
+
+<img src="images/logo_university-of-oxford_web.png" width="200px">
+
+</center>
+
+
+</div>
+
+<div class="col-sm-8 align-self-center">
+
+The University of Oxford and University of Sheffield co-founded **OxShef: dataviz** in late 2017 to provide open source tutorials and advice to researchers on using interactive data visualisations to promote engagement directly with datasets and to broaden research impact.
+
+Oxford's contribution to the project is spearheaded by Academic IT Research Support from IT Services and the [Interactive Data Network](http://idn.it.ox.ac.uk){target='_blank'}.
+
+**OxShef: dataviz** resources are designed to be of general use to all academics, however there is dedicated support available to University of Oxford researchers and academics detailed below.
+
+</div>
+
+</div>
+
+# Interactive Data Network
+
+The [Interactive Data Network](http://idn.it.ox.ac.uk) provides specialist support and advice for researchers at University of Oxford in the use of the interactive data visualisations and in good research data management/reproducible research standards.
