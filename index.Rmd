@@ -45,7 +45,7 @@ At the University of Sheffield there are multiple teams who contribute to the de
 
 ## Prospective Partners
 
-**OxShef: dataviz** welcomes offers of collaboration and partnership with other universities to further promote data visualisation and the importance of reproducible research. If you would like to get in touch with us then in the first place message us on Twitter <a class="twitter-follow-button" href="https://twitter.com/oxshef_dataviz" data-show-count="false">Follow @oxshef_dataviz</a>.
+**OxShef: dataviz** welcomes offers of collaboration and partnership with other universities to further promote data visualisation and the importance of reproducible research. If you would like to get in touch with us then in the first place email martinjohnhadley@gmail.com.
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

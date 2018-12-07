@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -78,6 +75,7 @@ h6 {
 </style>
 
 <link rel="stylesheet" href="css/rmarkdown.css" type="text/css" />
+<link rel="stylesheet" href="css/title-0px.css" type="text/css" />
 
 </head>
 
@@ -124,107 +122,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div id="rStudioHeader" class="alwaysShrunk">
@@ -269,19 +166,21 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 
 
 <div class="row">
-<div class="col-md-4 align-self-center">
+<div class="col-sm-4 align-self-center">
 <center>
-<p><img src="images/rse-sheffield_logo.png" width="250px"></p>
+<p><img src="images/rse-sheffield_logo.png" width="200px"></p>
 </center>
 </div>
 <div class="col-sm-8 align-self-center">
-<p><a href="https://www.sheffield.ac.uk/library/rdm/orda">ORDA</a> is University of Sheffield’s insitutional repository and provides advice and support to researchers on research data management and the hosting of research datasets. ORDA also provides specialist support in the use of interactive data visualisations.</p>
-<p>To contact the ORDA team please email us at <a href="mailto:rse@sheffield.ac.uk">rse@sheffield.ac.uk</a> and we’ll get back to you ASAP to arrange a meeting.</p>
+<p>The University of Sheffield and University of Sheffield co-founded <strong>OxShef: dataviz</strong> in late 2017 to provide open source tutorials and advice to researchers on using interactive data visualisations to promote engagement directly with datasets and to broaden research impact.</p>
+<p><a href="https://www.sheffield.ac.uk/library/rdm/orda">ORDA</a> is University of Sheffield’s insitutional repository and provides advice and support to researchers on research data management and the hosting of research datasets. ORDA also provides specialist support in the use of interactive data visualisations. To contact the ORDA team please email us at <a href="mailto:rse@sheffield.ac.uk">rse@sheffield.ac.uk</a> and we’ll get back to you ASAP to arrange a meeting.</p>
+<p><strong>OxShef: dataviz</strong> resources are designed to be of general use to all academics, however there is dedicated support available to University of Sheffield researchers and academics detailed below.</p>
 </div>
 </div>
-<div id="support-for-sheffield-researchers" class="section level1">
-<h1>Support for Sheffield Researchers</h1>
-<p>The OxShef project is a collaboration between Oxford and Sheffield to provide advice on using interactive data visualisation for all academics/researchers - independent of their home institution. However, there are a number of hosting services that ORDA provides exclusively for researchers at Sheffield.</p>
+<div id="orda-visualisation-showcase" class="section level1">
+<h1>ORDA Visualisation Showcase</h1>
+<p>University of Sheffield maintains a <a href="https://orda.shef.ac.uk/visualisations/">showcase of dataviz</a> for deposits on their institutional repository .</p>
+<p>Deposits that include a <code>visualisation.yaml</code> file will automatically be added to the showcase webite. See <a href="http://dataviz.shef.ac.uk/orda/visualisation-yaml/">dataviz.shef.ac.uk</a> for instructions.</p>
 </div>
 
   </div> <!-- articleBandContent -->
@@ -303,8 +202,6 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 <script type="text/javascript" src="//cdn.bizible.com/scripts/bizible.js" async=""></script>
 
 
-</div>
-</div>
 
 </div>
 

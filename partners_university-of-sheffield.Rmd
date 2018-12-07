@@ -1,9 +1,7 @@
 ---
 output:
   html_document:
-    toc: true
-toc_float:
-      collapsed: false
+    toc: false
 editor_options: 
   chunk_output_type: console
 ---
@@ -19,11 +17,11 @@ knitr::opts_chunk$set(
 
 <div class='row'>
 
-<div class="col-md-4 align-self-center">
+<div class="col-sm-4 align-self-center">
 
 <center>
 
-<img src="images/rse-sheffield_logo.png" width="250px">
+<img src="images/rse-sheffield_logo.png" width="200px">
 
 </center>
 
@@ -32,14 +30,19 @@ knitr::opts_chunk$set(
 
 <div class="col-sm-8 align-self-center">
 
-[ORDA](https://www.sheffield.ac.uk/library/rdm/orda) is University of Sheffield's insitutional repository and provides advice and support to researchers on research data management and the hosting of research datasets. ORDA also provides specialist support in the use of interactive data visualisations.
+The University of Sheffield and University of Sheffield co-founded **OxShef: dataviz** in late 2017 to provide open source tutorials and advice to researchers on using interactive data visualisations to promote engagement directly with datasets and to broaden research impact.
 
-To contact the ORDA team please email us at <rse@sheffield.ac.uk> and we'll get back to you ASAP to arrange a meeting.
+[ORDA](https://www.sheffield.ac.uk/library/rdm/orda) is University of Sheffield's insitutional repository and provides advice and support to researchers on research data management and the hosting of research datasets. ORDA also provides specialist support in the use of interactive data visualisations. To contact the ORDA team please email us at <rse@sheffield.ac.uk> and we'll get back to you ASAP to arrange a meeting.
+
+**OxShef: dataviz** resources are designed to be of general use to all academics, however there is dedicated support available to University of Sheffield researchers and academics detailed below.
 
 </div>
 
 </div>
 
-# Support for Sheffield Researchers
+# ORDA Visualisation Showcase
 
-The OxShef project is a collaboration between Oxford and Sheffield to provide advice on using interactive data visualisation for all academics/researchers - independent of their home institution. However, there are a number of hosting services that ORDA provides exclusively for researchers at Sheffield.
+University of Sheffield maintains a [showcase of dataviz](https://orda.shef.ac.uk/visualisations/) for deposits on their institutional repository .
+
+Deposits that include a `visualisation.yaml` file will automatically be added to the showcase webite. See [dataviz.shef.ac.uk](http://dataviz.shef.ac.uk/orda/visualisation-yaml/) for instructions.
+
